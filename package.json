@@ -14,7 +14,7 @@
 		"publish:ci": "lerna publish from-package --yes",
 		"version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
 		"clean": "lerna run clean",
-		"build": "yarn clean && lerna run build --scope '{}'"
+		"build": "yarn clean && lerna run build --scope '{@karapincha/react-hooks,}'"
 	},
 	"devDependencies": {
 		"commitizen": "4.2.4",
