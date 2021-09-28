@@ -1,0 +1,8 @@
+*.stories.js
+*.stories.mdx
+.vscode
+.storybook
+.fttemplates
+.vercel
+node_modules
+*.log

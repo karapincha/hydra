@@ -1,0 +1,13 @@
+{
+	"name": "@karapincha/react-hooks",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:karapincha/hydra.git",
+		"directory": "packages/react-hooks"
+	},
+	"files": [
+		"**"
+	]
+}

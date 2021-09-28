@@ -1,0 +1,26 @@
+name: Deploy Storybook
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Copy storybook config and assets
+        run: |
+          npm install
+          yarn storybook-copy
+
+      - uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
+          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional
+          vercel-args: "--prod" #Optional
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID}} #Required
+          vercel-project-id: ${{ secrets.VERCEL_STORYBOOK_PROJECT_ID}} #Required
+          working-directory: ./packages/ui
