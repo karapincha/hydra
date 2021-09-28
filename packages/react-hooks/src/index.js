@@ -1,5 +1,1 @@
-const useCopyToClipboard = require("./useCopyToClipboard");
-
-module.exports = {
-	useCopyToClipboard,
-};
+export * from "./useCopyToClipboard";
