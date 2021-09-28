@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-function useCopyToClipboard(params = null, node = null) {
+export const useCopyToClipboard = (params = null, node = null) => {
   const { debug } = params || {}
   const [isCopied, setIsCopied] = useState()
   const [copiedText, setCopiedText] = useState()
