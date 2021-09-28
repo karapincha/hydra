@@ -1,6 +1,6 @@
 {
 	"name": "@karapincha/react-hooks",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"main": "index.js",
 	"repository": {
@@ -11,7 +11,6 @@
 	"files": [
 		"**"
 	],
-	"dependencies": {},
 	"peerDependencies": {
 		"react": ">= 17.0.2",
 		"react-dom": ">= 17.0.2"
