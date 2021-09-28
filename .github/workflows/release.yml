@@ -6,8 +6,8 @@ on:
       - master
 
 jobs:
-  publish-gpr:
-    name: Publish to GPR
+  publish-npm:
+    name: Publish to NPM
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

@@ -14,7 +14,7 @@
 		"publish:ci": "lerna publish from-package --yes",
 		"version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
 		"clean": "lerna run clean",
-		"build": "yarn clean && yarn build:styles && lerna run build --scope '{@hydra/styles,@hydra/ui,}'"
+		"build": "yarn clean && lerna run build --scope '{}'"
 	},
 	"devDependencies": {
 		"commitizen": "4.2.4",
