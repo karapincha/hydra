@@ -1,0 +1,44 @@
+import dedent from 'ts-dedent'
+import {
+  ArgsTable,
+  Canvas,
+  Description,
+  Meta,
+  Preview,
+  Source,
+  Story,
+} from '@storybook/addon-docs'
+import { DocStory } from '@karapincha/hydra-ui'
+
+import { <FTName> } from './<FTName>'
+
+<Meta title='Molecules / <FTName>' component={<FTName>} />
+
+# <FTName>
+
+`import { <FTName> } from '@amplifyn/ui'`
+
+<br />
+<br />
+
+### Default
+
+<br />
+
+<Story name='Default'>
+  <DocStory
+    language='jsx'
+    zoom='1'
+    code={dedent`
+    <<FTName> />
+  `}>
+    <<FTName> />
+  </DocStory>
+</Story>
+
+<br />
+<br />
+
+### Properties
+
+<ArgsTable of={<FTName>} />
