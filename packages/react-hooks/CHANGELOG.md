@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/karapincha/hydra/compare/@karapincha/react-hooks@0.1.6...@karapincha/react-hooks@0.1.7) (2021-09-28)
+
+**Note:** Version bump only for package @karapincha/react-hooks
+
+
+
+
+
 ## [0.1.6](https://github.com/karapincha/hydra/compare/@karapincha/react-hooks@0.1.5...@karapincha/react-hooks@0.1.6) (2021-09-28)
 
 **Note:** Version bump only for package @karapincha/react-hooks
